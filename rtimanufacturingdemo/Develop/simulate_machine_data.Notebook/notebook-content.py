@@ -35,6 +35,18 @@
 
 # CELL ********************
 
+import importlib
+importlib.invalidate_caches()
+
+# METADATA ********************
+
+# META {
+# META   "language": "python",
+# META   "language_group": "synapse_pyspark"
+# META }
+
+# CELL ********************
+
 SENSOR_BIAS = False  
 BIAS = True
 from time import sleep, time
